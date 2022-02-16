@@ -1,0 +1,31 @@
+{
+  "name": "goit-node-hw-01",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dima-as/goit-node-hw-01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dima-as/goit-node-hw-01/issues"
+  },
+  "homepage": "https://github.com/Dima-as/goit-node-hw-01#readme",
+  "dependencies": {
+    "commander": "^9.0.0",
+    "option": "^0.2.4",
+    "require-stack": "^1.0.2",
+    "uuid": "^8.3.2",
+    "yargs": "^17.3.1"
+  }
+}
